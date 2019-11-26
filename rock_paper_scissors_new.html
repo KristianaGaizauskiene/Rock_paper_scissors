@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="rock_paper_scissors.css"/>
+    <title onclick="refreshPage()">Rock Paper Scissors game</title>
+</head>
+<body>
+ <header>
+     <h1>Rock Paper Scissors</h1>
+ </header>
+ <div class="result_board">
+ <div class="labels" id="player_label">Player</div>
+ <div class="labels" id="computer_label">Computer</div>
+ <span id="playerResult">0</span>:<span id="computerResult">0</span>
+ </div>
+
+<div class="text_result">
+    <p> Make your choice!</p>
+</div>
+ <div class="options">
+     <div class="option" id= "rock">
+         <img src="rock1.png" alt=" ">
+     </div>
+         <div class="option" id="paper">
+             <img src="paper1.png">
+         </div>
+         <div class="option" id="scissors">
+             <img src="scissors1.png">
+         </div>
+   </div>
+<button class="refresh_page" type="submit" onClick="refresh_page()">Start a new game!</button>
+
+<script src="rock_paper_scissors_update.js"></script>
+</body>
+</html>
